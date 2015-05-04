@@ -1,0 +1,677 @@
+[ 2015-04-03T01:06:57+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=search
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cj_users`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.047060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined variable: page D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 224 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.049060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.075061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.076061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.077062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.077062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.078062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:07:07+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=index&pid=18&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 18 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.007001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.057060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.059060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.078061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.078061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.079061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.080061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.080061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-03T01:07:11+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=edit&id=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `cj_role` WHERE ( `status` = 1 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.027059s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.028059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.042060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.042060s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.043060s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.043060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.044060s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:07:30+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cj_user` WHERE ( `username` = 'admin' ) AND ( `id` <> '1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `cj_user` SET `username`='admin',`role`='5',`status`='1',`remark`='请勿关闭管理�\�' WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_role_user` [ RunTime:0.010001s ]
+SQL: UPDATE `cj_role_user` SET `role_id`='5' WHERE ( `user_id` = 1 ) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.061061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.063061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.072062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.072062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.073062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.074062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.075062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:07:32+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.009001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.057061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.058061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.072062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.073062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.073062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.074062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.075062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-03T01:07:37+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=index&pid=18&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 18 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.009001s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.008001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.045060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.046060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.061061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.062061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.063061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.063061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.064061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:07:39+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index&pid=50&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 50 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.070061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.071061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.085062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.085062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.086062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.087062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.087062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:08:39+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit&userid_int=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_users` WHERE ( `userid_int` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.048060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.050060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.068061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.068061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.069061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.070061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.070061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:08:49+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 151 行.
+SQL: SELECT * FROM `cj_users` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: viptime D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 165 行.
+SQL: UPDATE `cj_users` SET `userid_int`='1',`status_int`='1',`scene_times`='1',`limit_time`='2015-04-01 01:00:00',`remark`='1111123' WHERE ( `email_varchar` = 'test@qq.com' ) [ RunTime:0.043003s ]
+NOTIC: [8] Undefined index: gid D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: gid D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.093063s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.094063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.103063s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.104063s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.105063s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.105063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.106064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:08:52+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.050060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.051060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.065061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.065061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.066061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.066061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.067061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:09:16+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit&userid_int=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_users` WHERE ( `userid_int` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.058060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.061060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.077061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.078061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.079061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.079061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.080061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:09:20+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 151 行.
+SQL: SELECT * FROM `cj_users` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: viptime D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 165 行.
+SQL: UPDATE `cj_users` SET `userid_int`='1',`status_int`='1',`scene_times`='1',`limit_time`='2016-04-01 01:00:00',`remark`='1111123' WHERE ( `email_varchar` = 'test@qq.com' ) [ RunTime:0.026001s ]
+NOTIC: [8] Undefined index: gid D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: gid D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.070062s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.071062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.081062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.082062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.083062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.084062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.085062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-03T01:09:22+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.046060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.047060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.061060s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.062061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.062061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.063061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.063061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:09:23+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.005001s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.165067s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.167067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.185068s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.186068s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.187068s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.187068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.188068s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:10:51+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit&userid_int=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` WHERE ( `status` = 1 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_users` WHERE ( `userid_int` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.056060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.058060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.070061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.071061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.072061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.072061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.073061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:10:55+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 151 行.
+SQL: SELECT * FROM `cj_users` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: viptime D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 165 行.
+SQL: UPDATE `cj_users` SET `userid_int`='1',`status_int`='1',`scene_times`='2',`limit_time`='2016-04-01 01:00:00',`remark`='1111123' WHERE ( `email_varchar` = 'test@qq.com' ) [ RunTime:0.079004s ]
+NOTIC: [8] Undefined index: gid D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: gid D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.116064s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.117064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.124064s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.125064s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.126064s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.126064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.127064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-03T01:10:58+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.069061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.070061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.084062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.085062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.085062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.086062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:16:57+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.058060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.059060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.073061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.074061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.075061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.075061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.076061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:17:12+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=index&pid=18&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 18 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.008001s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.044060s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.045060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.062061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.063061s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.063061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.064061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.065061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-03T01:17:14+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index&pid=50&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\WWW\ewesambo_new\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 50 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.004001s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: 1 D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\WWW\ewesambo_new\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.064061s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\WWW\ewesambo_new\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.065061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.084062s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.085062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.086062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.086062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.087062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

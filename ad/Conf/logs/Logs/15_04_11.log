@@ -1,0 +1,487 @@
+[ 2015-04-11T14:16:57+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001750s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016211s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018519s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018860s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019452s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001622s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020197s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2015-04-11T14:17:22+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001864s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001472s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000390s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013376s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008389s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.022251s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.022586s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.022933s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.023172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.023657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-04-11T14:17:50+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001665s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001454s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000175s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015038s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009401s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.025082s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.025512s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.025966s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.026315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001750s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.026912s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-04-11T14:18:38+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001649s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001431s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000163s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023511s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009191s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033377s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033807s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034262s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001769s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035224s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2015-04-11T14:19:01+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001658s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001460s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000186s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023907s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024350s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024802s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2015-04-11T14:24:25+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001648s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.018075s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.018491s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.019151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.019498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.020047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-04-11T14:24:34+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001616s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001464s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000185s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013897s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009237s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.023793s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.024241s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.024698s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.025046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.025602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-04-11T14:27:45+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001554s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001477s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000162s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024339s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018209s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043192s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043638s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044291s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001946s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-04-11T14:27:48+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=User&a=index&pid=18&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001628s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 18 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.001645s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.001472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.000257s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027722s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043180s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043618s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044061s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001701s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-04-11T14:27:55+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Users&a=index&pid=50&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001615s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 50 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.001727s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000217s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.000144s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000231s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.019609s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id G:\home\ftp\y\yiqixiu\wwwroot\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username G:\home\ftp\y\yiqixiu\wwwroot\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023766s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043994s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044435s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2015-04-11T14:27:57+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Users&a=edit&userid_int=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001720s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.001617s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` WHERE ( `status` = 1 )  [ RunTime:0.000252s ]
+SQL: SELECT * FROM `cj_users` WHERE ( `userid_int` = 1 ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028234s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011321s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040228s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040668s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041157s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001759s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-04-11T14:28:06+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Users&a=edit
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001584s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.001502s ]
+NOTIC: [8] Undefined index: id G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 151 行.
+SQL: SELECT * FROM `cj_users` LIMIT 1   [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: viptime G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 165 行.
+SQL: UPDATE `cj_users` SET `userid_int`='1',`status_int`='1',`scene_times`='2',`limit_time`='2016-04-01 01:00:00',`remark`='1111123',`password_varchar`='f6d884998357f07ea71f903bc3f79073' WHERE ( `email_varchar` = 'test@qq.com' ) [ RunTime:0.000276s ]
+NOTIC: [8] Undefined index: gid G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [8] Undefined index: gid G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\System\UsersAction.class.php 第 168 行.
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027118s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006015s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033716s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034114s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034536s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001644s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035415s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-04-11T14:28:09+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Users&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001587s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.001594s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000253s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id G:\home\ftp\y\yiqixiu\wwwroot\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username G:\home\ftp\y\yiqixiu\wwwroot\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014032s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041900s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042341s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042826s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2015-04-11T14:28:11+08:00 ] 122.190.124.109 /ad/index.php?g=System&m=Users&a=edit&userid_int=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.001688s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.001572s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` WHERE ( `status` = 1 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `cj_users` WHERE ( `userid_int` = 1 ) LIMIT 1   [ RunTime:0.000257s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011136s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038030s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038471s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038956s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001752s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-04-11T14:28:32+08:00 ] 180.153.214.198 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001488s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006842s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008944s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009354s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009811s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001695s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010695s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-04-11T14:38:55+08:00 ] 180.153.214.197 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001546s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.009009s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009422s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009882s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-04-11T14:41:27+08:00 ] 180.153.214.191 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001542s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006826s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008984s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009398s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009861s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-04-11T14:43:01+08:00 ] 112.64.235.251 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2] Cannot use a scalar value as an array G:\home\ftp\y\yiqixiu\wwwroot\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001524s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006834s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008974s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009387s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009846s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.010189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001706s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+

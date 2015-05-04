@@ -1,0 +1,10 @@
+
+如果是nginx配置环境，请将下列代码填写到自定义伪静态规则。
+
+if (!-e $request_filename) { 
+
+        rewrite  ^(.*)$  /index.php?s=$1  last; 
+
+        break;   
+
+    } 

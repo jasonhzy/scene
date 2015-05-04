@@ -1,0 +1,521 @@
+[ 2015-04-08T18:19:17+08:00 ] ERR: (ThinkException) 无法加载模块:Index
+[ 2015-04-08T18:19:25+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002632s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079110s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.082638s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.083353s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.084411s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.084918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.085575s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-04-08T18:19:34+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.044186s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.005019s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.058226s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.129218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.130052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083751s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.213823s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.214604s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.215731s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.216259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003053s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.216938s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-04-08T18:20:00+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=index&pid=18&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.004416s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 18 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.015466s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.047004s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.009604s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000707s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.000546s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.130821s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.132041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057125s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.189202s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.189962s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.190790s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.191317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.191985s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2015-04-08T18:20:01+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=User&a=index&pid=18&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.012241s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 18 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `cj_role` [ RunTime:0.008803s ]
+SQL: SELECT `id`,`name` FROM `cj_role`  [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `cj_user` [ RunTime:0.006186s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_user` LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT * FROM `cj_user` ORDER BY id ASC LIMIT 0,15   [ RunTime:0.000538s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.293303s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001123s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./tpl/System/User_header.html): failed to open stream: No such file or directory D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+NOTIC: [2] file_get_contents(./tpl/System/User_footer.html): failed to open stream: No such file or directory D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Template\ThinkTemplate.class.php 第 624 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.294495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.328288s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.328990s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.329803s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.330304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002791s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.331142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2015-04-08T18:20:06+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=index&pid=50&level=3
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.004092s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = 3 ) AND ( `pid` = 50 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.045450s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.015796s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` ORDER BY id desc  [ RunTime:0.000519s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cj_users` LIMIT 1   [ RunTime:0.001065s ]
+SQL: SELECT * FROM `cj_users` ORDER BY userid_int desc LIMIT 0,25   [ RunTime:0.000474s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.094534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 217 行.
+NOTIC: [8] Undefined index: username D:\phpStudy\WWW\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+NOTIC: [8] Undefined index: id D:\phpStudy\WWW\ad\Conf\logs\Cache\System\0c005db9ac6e0bb0a0285668787855bf.php 第 220 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-1.095356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016737s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.112131s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.112759s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.113403s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.114143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.114968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-04-08T18:20:10+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Users&a=edit&userid_int=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.004291s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `cj_users` [ RunTime:0.004471s ]
+SQL: SHOW COLUMNS FROM `cj_user_group` [ RunTime:0.004322s ]
+SQL: SELECT `id`,`name` FROM `cj_user_group` WHERE ( `status` = 1 )  [ RunTime:0.000465s ]
+SQL: SELECT * FROM `cj_users` WHERE ( `userid_int` = 1 ) LIMIT 1   [ RunTime:0.000587s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.037986s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014152s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.053191s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.053841s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.054508s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.055026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002454s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.055722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-04-08T18:38:11+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002595s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000896s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009542s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.013121s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013920s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014749s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003058s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-04-08T18:46:52+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012090s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000890s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044378s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048185s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048730s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.049696s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2015-04-08T18:48:01+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002077s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.011235s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.011683s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.012155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.012515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.013067s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-04-08T18:48:33+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007787s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.010512s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.010968s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.011484s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.011843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001817s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.012579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-04-08T18:49:05+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002582s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008941s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012337s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.012872s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013452s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.013882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.014643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2015-04-08T18:49:16+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.022010s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.009843s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.006759s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.077676s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.078584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015959s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.094599s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.095287s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.095958s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.096529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002720s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.097419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-04-08T18:50:56+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.013102s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.006136s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000786s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.055828s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.056969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.091949s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.092854s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.094370s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.095070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004082s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.096136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2015-04-08T18:52:38+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.012680s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.011770s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000770s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.046921s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.048070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017237s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.065364s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.066177s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.067000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.067642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003266s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.068717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-04-08T18:54:06+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.012070s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.011903s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.001442s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.043852s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002023s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.046012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021665s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.067849s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.069073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.070123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.070833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003938s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.071830s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2015-04-08T18:54:26+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.012282s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.013113s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.000778s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.062771s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.063910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030723s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.094661s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.095288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.096080s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.096856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.097841s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2015-04-08T18:54:56+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.012445s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.012496s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.001587s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.044981s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.045983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.065036s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.065897s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.066758s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.067417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003287s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.068418s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-04-08T18:55:08+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=System&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 37 行.
+NOTIC: [8] Undefined variable: staticPath D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+NOTIC: [8] Constant STATICS already defined D:\phpStudy\WWW\ad\Wesambo\Lib\Action\BaseAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.011307s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `level` = null ) AND ( `pid` = 2 ) AND ( `status` = 1 ) AND ( `display` > 0 ) ORDER BY `sort` asc  [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `cj_node` [ RunTime:0.011685s ]
+SQL: SELECT * FROM `cj_node` WHERE ( `display` = 1 ) AND ( `status` = 1 ) ORDER BY `sort` asc  [ RunTime:0.001371s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-1.071041s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-1.072430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032678s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.105136s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.105775s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.106596s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.107153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.107982s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-04-08T18:55:25+08:00 ] 0.0.0.0 /ad/index.php?g=System&m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined offset: 1 D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\phpStudy\WWW\ad\Wesambo\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.002389s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.003217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009599s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012846s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013522s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.014250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000808s ]
+
